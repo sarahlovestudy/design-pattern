@@ -1,0 +1,10 @@
+迭代器模式 ：顺序访问一个聚合对象中的各个元素
+
+角色：
+ client客户端
+ Aggregate抽象聚合类 //接口
+ 具体聚合类：通过createItreator()返回给对client对应的迭代器对象
+ 抽象迭代器 Iterator
+ 具体迭代器ConcreteIterator:在具体聚合类中实现
+ 
+ 
