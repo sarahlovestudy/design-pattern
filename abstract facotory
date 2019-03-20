@@ -1,0 +1,5 @@
+1 client :this class uses interfaces delcared by AbstractFactory and AbstractProduct classes.
+2 抽象工厂：是具体工厂的抽象基类
+3具体工厂：继承抽象工厂，具体工厂重写抽象工厂的方法
+4抽象产品：是所有objects的基类
+5 具体产品：继承抽象产品类
